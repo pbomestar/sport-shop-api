@@ -1,0 +1,9 @@
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd" >
+<suite name="Sport Shop API Suite" verbose="1" >
+    <test name="Products API Tests">
+        <classes>
+            <class name="tests.AddProductTest"/>
+            <class name="tests.GetProductTest"/>
+        </classes>
+    </test>
+</suite>

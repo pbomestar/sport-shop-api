@@ -1,1 +1,1 @@
-Project desctiption and guide for setup.
+Project description and guide for setup.
