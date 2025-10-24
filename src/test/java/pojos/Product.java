@@ -4,10 +4,10 @@ import lombok.Data;
 
 @Data
 public class Product {
+    private int id;
     private String title;
     private double price;
     private String description;
     private String category;
-
-    // Getters & Setters
+    private String image;
 }

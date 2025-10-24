@@ -2,8 +2,8 @@
 <suite name="Sport Shop API Suite" verbose="1" >
     <test name="Products API Tests">
         <classes>
-            <class name="tests.AddProductTest"/>
             <class name="tests.GetProductTest"/>
+            <class name="tests.AddProductTest"/>
         </classes>
     </test>
 </suite>

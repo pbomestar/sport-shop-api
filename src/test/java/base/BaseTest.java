@@ -11,7 +11,7 @@ public class BaseTest {
     @BeforeClass
     public void setup() throws Exception {
         config = new Properties();
-        config.load(new FileInputStream("src/main/resources/config.properties"));
+        config.load(new FileInputStream("src/test/resources/config.properties"));
         RestAssured.baseURI = config.getProperty("base.url");
     }
 }
